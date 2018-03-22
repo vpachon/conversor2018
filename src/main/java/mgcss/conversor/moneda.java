@@ -6,5 +6,11 @@
 package mgcss.conversor;
 
 public class moneda {
-    // TODO resto de métodos
+   
+    public static double dinar_tunecino(Double n){
+        return n*0.3393;
+    }
+    public static double bitcoin(Double n){
+        return n*7010.76;
+    }
 }
