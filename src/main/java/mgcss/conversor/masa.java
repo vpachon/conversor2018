@@ -7,4 +7,37 @@ package mgcss.conversor;
 
 public class masa {
     // TODO resto de métodos
+
+
+    public static double convertirKoku(double n){
+        
+        return n*180.41;   
+        
+    }
+    
+    
+    public static double convertirKann(double n){
+    
+    return n*3.75;
 }
+
+    public static double convertirKinn(double n ){
+        return n *0.6;
+    }
+    
+    public static double convertirMonnme(double n){
+        return n*0.00375;
+        
+    }
+    
+    public static double convertirTael(double n){
+        return n*0.04;
+    }
+    
+    public static double convertirKuPing (double n){
+        return n*0.04;
+    }
+    
+    
+}
+
