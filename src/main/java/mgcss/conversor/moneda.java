@@ -7,4 +7,11 @@ package mgcss.conversor;
 
 public class moneda {
     // TODO resto de métodos
+    
+    public static Double chelin_somali(Double n){
+        return n*0.0014;
+    }
+    public static Double dolar_americano(Double n){
+        return n*0.8123;
+    }
 }
