@@ -8,6 +8,22 @@ package mgcss.conversor;
 
 public class velocidad {
    // TODO resto de métodos 
+   public static double millas_segundos( double valor ){
+       return valor * 5793.64;
+   }
+   
+   public static double millas_hora( double valor ){
+       return valor * 1.61;
+   }
+   
+   public static double pies_segundos( double valor ){
+       return valor * 1.1;
+   }
+   
+   public static double nudos_nauticos( double valor ){
+       return valor * 0.87;
+   }
+
     public static double luz(double v){
         return v*(1.49*Math.pow(10, -9));
     }
@@ -24,4 +40,5 @@ public class velocidad {
         return v*(447.04); 
     }
     
+
 }
