@@ -6,6 +6,16 @@
 package mgcss.conversor;
 
 public class volumen {
+
+    // TODO resto de métodos
+    
+    public static double barril (double barril){
+        return barril*117.3;
+    }
+    
+    public static double onzaliquida(double ozlq){
+        return ozlq*0.02957;
+
     
     public static double galón(double galón) {
         return (galón*3.78541);
@@ -13,5 +23,6 @@ public class volumen {
     
     public static double cuartoGalón(double qgalón) {
         return (galón(qgalón)/4);
+
     }
 }
